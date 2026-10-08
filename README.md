@@ -116,4 +116,135 @@ Model Training
 Model Evaluation
         ↓
 Best Model Selection
+        ↓
+Model Saving
+        ↓
+Streamlit Application
+        ↓
+Income Prediction
 ```
+
+## 📈 Model Evaluation
+
+The models are evaluated using:
+
+* Accuracy
+* Precision
+* Recall
+* F1-score
+* ROC-AUC
+* Confusion Matrix
+
+The model with the best **F1-score** is selected as the final prediction model.
+
+## 🌐 Streamlit Application
+
+The project includes an interactive Streamlit interface where users can enter an individual's:
+
+* Age
+* Workclass
+* Education
+* Occupation
+* Marital Status
+* Relationship
+* Race
+* Sex
+* Capital Gain/Loss
+* Working Hours
+* Native Country
+* Other census information
+
+The application then predicts whether the estimated annual income is:
+
+**💵 <=50K**
+
+or
+
+**💰 >50K**
+
+It also displays the model's prediction probabilities.
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/prabhuti256-collab/Adult-Census-Income-Predictor.git
+```
+
+Navigate to the project:
+
+```bash
+cd Adult-Census-Income-Predictor
+```
+
+Create a virtual environment:
+
+```bash
+py -3.12 -m venv venv
+```
+
+Activate the environment on Windows:
+
+```powershell
+venv\Scripts\activate
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+## ▶️ Run the Application
+
+Start the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser.
+
+## 🧪 Run Prediction from Python
+
+You can also run the prediction script:
+
+```bash
+python predict.py
+```
+
+## 📊 Data Analysis
+
+The project includes visualizations for:
+
+* Income distribution
+* Age distribution
+* Education vs income
+* Working hours vs income
+* Income distribution by sex
+
+These visualizations help identify patterns and relationships within the dataset.
+
+## 🔮 Future Improvements
+
+* Hyperparameter tuning
+* Cross-validation
+* Feature importance analysis
+* Interactive model comparison
+* Improved Streamlit dashboard
+* SHAP-based model explainability
+* Cloud deployment
+* Real-time prediction API
+
+## 👩‍💻 Author
+
+**Prabhuti**
+
+B.Tech AI & ML Student
+
+GitHub: https://github.com/prabhuti256-collab
+
+## ⭐ Project
+
+If you find this project useful, consider giving the repository a ⭐ on GitHub.
